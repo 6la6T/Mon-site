@@ -4,4 +4,8 @@ class PageController < ApplicationController
         
     end
     
+    def menu
+        
+    end
+    
 end

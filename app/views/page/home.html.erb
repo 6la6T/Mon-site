@@ -1,12 +1,8 @@
 <div class="center2 style">
-    <%=  image_tag "logo.jpg" %>
+    <%= image_tag"logo.jpg" %>
 </div>
 <body>
-    <div class="center container">
-        <div class="jumbotron">
-          <h1>Hello, world!</h1>
-          <p>...</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-        </div>
+    <div class="center">
+          <p><%= link_to "Bienvenue", menu_path , class: "btn btn-primary btn-lg" %></p>
     </div>
 </body>
